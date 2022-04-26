@@ -1762,7 +1762,8 @@ pre code {
   }
   .col-md-6 {
     width: 50%;
-    background: #eeeeee80;
+    background: transparent;
+
   }
   .col-md-5 {
     width: 41.66666667%;
