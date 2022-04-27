@@ -196,7 +196,7 @@ File Description: Place here your custom CSS styles
     left:40px;
     bottom:100px;
     z-index:-1;
-    border:2px solid #d7a449;
+    border:2px solid #C6A47E;
   }
   
   .about-section .image-column .inner-column .image{
@@ -240,7 +240,7 @@ File Description: Place here your custom CSS styles
     top:0px;
     width:110px;
     height:110px;
-    color:#d7a449;
+    color:#C6A47E;
     font-size:68px;
     font-weight:700;
     line-height:105px;
@@ -260,7 +260,7 @@ File Description: Place here your custom CSS styles
   }
   .about-section .btn-style-three:hover {
       color: #ffffff;
-      background: #d7a449;
+      background: #C6A47E;
   }
   .about-section .btn-style-three {
       position: relative;
@@ -273,7 +273,7 @@ File Description: Place here your custom CSS styles
       padding: 11px 40px;
       background-color: #ffffff;
       text-transform: capitalize;
-      border: 2px solid #d7a449;
+      border: 2px solid #C6A47E;
       font-family: 'Arimo', sans-serif;
   }
   .sec-title2{
@@ -285,7 +285,7 @@ File Description: Place here your custom CSS styles
   }
   .sec-title .title {
       position: relative;
-      color: #d7a449;
+      color: #C6A47E;
       font-size: 18px;
       font-weight: 700;
       padding-right: 50px;
@@ -430,4 +430,14 @@ File Description: Place here your custom CSS styles
     .footer__nav {
       flex: 2 0px;
     }
+  }
+
+
+
+  #poza {
+    background-color: rgba(249, 249, 249, 1);
+  }
+
+  #medzera {
+    padding-bottom: 10px;
   }
