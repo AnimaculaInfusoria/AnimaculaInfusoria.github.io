@@ -441,3 +441,28 @@ File Description: Place here your custom CSS styles
   #medzera {
     padding-bottom: 10px;
   }
+
+  #stlp.inner-column:after {
+    border: 2px solid #C6A47E;
+    position: absolute;
+    content: '';
+    right: 0px;
+    top: 0px;
+    left: -40px;
+    bottom: 100px;
+    z-index: -1;
+    margin-right: 100px;
+    
+  }
+  #stlp2.inner-column:after {
+    border: 2px solid #C6A47E;
+    position: absolute;
+    content: '';
+    right: 0px;
+    top: 0px;
+    left: -40px;
+    bottom: 100px;
+    z-index: -1;
+    margin-right: 100px;
+    
+  }
