@@ -848,3 +848,13 @@ textarea {
     background: rgb(0, 0, 0, 0.7);
 	}
 }
+
+
+@media (max-width:768px) {
+	.banner-caption h1 {
+		font-size: 50px;
+	}
+}
+
+
+
