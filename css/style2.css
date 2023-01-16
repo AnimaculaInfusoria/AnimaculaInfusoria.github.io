@@ -1790,12 +1790,3 @@ form input[type="submit"], form button, form input[type="reset"] {
               transform: rotate(-45deg);
       bottom: -5px;
       right: -5px; }
-
-      .fkin-loader{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        z-index: 1;
-        overflow: visible;
-        background: url('loader-blocks.gif') no-repeat center center;
-      }
