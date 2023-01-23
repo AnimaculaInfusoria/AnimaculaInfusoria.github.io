@@ -36,11 +36,10 @@
 	</head>
 
 	<body class="no-trans">
-		<div class="fkin-loader">
-			<div class="fkin-content">
-				
-			</div>
+		<div id="preload">
+			<div class="spinner"></div>
 		</div>
+		  
 		<!-- scrollToTop -->
 		<!-- ================ -->
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
@@ -526,7 +525,10 @@
 
 		
 		</div>
-		
+		<script>window.onload = function() {
+			document.getElementById("preload").style.display = "none";
+		  };
+		  </script>
 		<!-- Jquery and Bootstap core js files -->
 		<script type="text/javascript" src="plugins/jquery.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
